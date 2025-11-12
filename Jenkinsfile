@@ -7,7 +7,7 @@ node {
         }
 // }
         stage('Build') {
-            build 'WimSampleStart'
+            build 'SampleAppStart'
         }
         stage('Results') {
             build 'TestSampleApp'
